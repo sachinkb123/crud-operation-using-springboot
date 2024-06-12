@@ -1,0 +1,17 @@
+server:
+  port: 8081
+  
+Spring:
+  application:
+    name: User-Service
+    
+  jpa:
+   hibernate:
+     ddl-auto: update
+     
+     
+  datasource:
+   url:  jdbc:mysql://localhost:3306/springboot_crud_demo
+   username: root
+   password: root
+   driver-class-name: com.mysql.cj.jdbc.Driver
